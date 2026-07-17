@@ -14,12 +14,12 @@ python main_DISC.py --config config/yelp.yml
 # Reddit
 python main_DISC.py --config config/reddit.yml
 
-| 参数                | YelpChi | Reddit | 含义        |
-| ----------------- | ------: | -----: | --------- |
-| epochs            |     200 |    200 | 训练轮数      |
-| training-ratio    |       1 |      1 | 标记节点比例（%） |
-| batch-size        |     128 |     32 | 批大小       |
-| normal-th         |       5 |      5 | 正常类置信度阈值  |
-| fraud-th          |      85 |     85 | 异常类置信度阈值  |
-| α                 |     0.7 |    0.7 | 类别平衡因子   |
-| λ                 |     0.5 |    0.7 | 无监督损失权重   |
+| Arguments                | YelpChi | Reddit |
+| ----------------- | ------: | -----: |
+| epochs            |     200 |    200 | 
+| training-ratio    |       1 |      1 |
+| batch-size        |     128 |     32 | 
+| normal-th         |       5 |      5 | 
+| fraud-th          |      85 |     85 | 
+| α                 |     0.7 |    0.7 | 
+| λ                 |     0.5 |    0.7 | 
