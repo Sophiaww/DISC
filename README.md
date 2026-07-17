@@ -21,4 +21,5 @@ python main_DISC.py --config config/reddit.yml
 | batch-size        |     128 |     32 | 批大小       |
 | normal-th         |       5 |      5 | 正常类置信度阈值  |
 | fraud-th          |      85 |     85 | 异常类置信度阈值  |
+| α                 |     0.7 |    0.7 | 类别平衡因子   |
 | λ                 |     0.5 |    0.7 | 无监督损失权重   |
